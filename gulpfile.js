@@ -55,7 +55,7 @@ gulp.task('browser-sync', ['sass', 'pug', 'js'], function () {
  * need for vendor prefixes then live reload the browser.
  */
 gulp.task('sass', function () {
-  return gulp.src(paths.sass + '*.scss')
+  return gulp.src(paths.sass + '**/*.scss')
     .pipe(sass({
       includePaths: [paths.sass],
       outputStyle: 'compressed'
