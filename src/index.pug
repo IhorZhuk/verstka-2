@@ -1,4 +1,13 @@
 extends _layouts/home
 
+block variables
+	-var bodyClass="index-page"
+	
+block styles
+	link(rel="stylesheet", href="index.css")
+
 block content
-	include _partials/header
+	h1 index page
+
+block scripts
+	script(src="index.js")
