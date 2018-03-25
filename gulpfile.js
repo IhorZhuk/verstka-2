@@ -23,7 +23,9 @@ var paths = {
  */
 gulp.task('pug', function () {
   return gulp.src('./src/*.pug')
-    .pipe(pug())
+    .pipe(pug({
+      pretty: true
+    }))
     .on('error', function (err) {
       process.stderr.write(err.message + '\n');
       this.emit('end');
