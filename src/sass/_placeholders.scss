@@ -1,0 +1,15 @@
+%pseudo {
+  content: '';
+  display: block;
+  position: absolute;
+}
+
+%btn-base {
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 1;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

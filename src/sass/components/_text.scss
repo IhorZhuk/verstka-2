@@ -1,0 +1,29 @@
+.text-title-lg {
+  font-size: 82px;
+  line-height: 1.1;
+  font-weight: 800;
+}
+
+.text-title-sm {
+  font-size: 18px;
+  margin: 0 0 20px;
+  line-height: 1.2;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.text-p {
+  line-height: 1.5;
+  font-size: 16px;
+  margin: 0;
+}
+
+.text-widget {
+  transition: .2s all;
+  opacity: .5;
+  max-width: 270px;
+
+  &:hover {
+    opacity: 1;
+  }
+}
